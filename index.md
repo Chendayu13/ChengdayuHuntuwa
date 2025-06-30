@@ -1,31 +1,63 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html><html lang="id">
 <head>
-  <title>Galeri Kenangan</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kenangan 7 Hari - Chendayu Huntuwa</title>
   <style>
     body {
-      font-family: sans-serif;
+      font-family: Arial, sans-serif;
+      background-color: #fefefe;
+      margin: 0;
+      padding: 0;
       text-align: center;
-      background-color: #f0f0f0;
+      color: #333;
     }
-    h1 {
-      margin-top: 30px;
+    .container {
+      max-width: 800px;
+      margin: auto;
+      padding: 20px;
     }
-    img {
-      width: 300px;
-      margin: 10px;
+    .photo {
+      width: 250px;
       border-radius: 10px;
-      box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+      margin-bottom: 20px;
+    }
+    h1, h2 {
+      color: #1a237e;
+    }
+    .box {
+      background-color: #e3f2fd;
+      padding: 15px;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+    .highlight {
+      color: #d32f2f;
+      font-weight: bold;
     }
   </style>
 </head>
 <body>
-  <h1>Galeri Kenangan</h1>
-  <img src="chendayu.jpg" alt="Chendayu">
-  <img src="kenangan1.jpg" alt="Kenangan 1">
-  <img src="kenangan2.jpg" alt="Kenangan 2">
-  <img src="kenangan3.jpg" alt="Kenangan 3">
-  <img src="kenangan4.jpg" alt="Kenangan 4">
-  <img src="kenangan5.jpg" alt="Kenangan 5">
+  <div class="container">
+    <img src="foto.jpg" alt="Chendayu Huntuwa" class="photo"><h1>Kenangan 7 Hari Wafatnya</h1>
+<h2>Chendayu Huntuwa</h2>
+
+<p><em>"Inna lillahi wa inna ilaihi raji'un"</em></p>
+
+<p>Waktu berlalu begitu cepat. Tak terasa, hari ini genap 7 hari sejak kepergian <strong>Chendayu Huntuwa</strong> ke pangkuan Ilahi.</p>
+
+<p>Sosok yang begitu berarti dalam hidup kami, dikenang sebagai pribadi yang lembut, penyayang, dan selalu membawa kehangatan di sekelilingnya. Canda tawanya, petuah bijaknya, dan keluh kesahnya akan selalu hidup dalam hati kami.</p>
+
+<p>Semoga Allah SWT mengampuni segala khilaf, menerima seluruh amal ibadahnya, dan menempatkannya di surga terbaik.</p>
+
+<div class="box">
+  <p><strong>Chendayu Huntuwa</strong><br>
+  Tgl: <span class="highlight">25 Juni 2025</span><br>
+  Usia: <span class="highlight">33 Tahun</span><br>
+  Wafisah Watyla: <span class="highlight">02 Juli 2025 (7 Hari)</span></p>
+</div>
+
+  </div>
 </body>
 </html>
